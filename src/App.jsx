@@ -65,9 +65,9 @@ function App() {
         </motion.section>
 
         <section
-
+           ref={NavLink.Project}
         >
-          <Projects scrollToComponent={scrollToComponent}/>
+          <Projects />
         </section>
 
         <motion.section
