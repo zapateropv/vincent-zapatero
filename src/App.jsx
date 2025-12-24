@@ -67,7 +67,7 @@ function App() {
         <section
 
         >
-          <Projects />
+          <Projects scrollToComponent={scrollToComponent}/>
         </section>
 
         <motion.section
