@@ -7,7 +7,7 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: '/vincent-zapatero',
+    path: '/',
     element: <App />,
     errorElement: <NotFound />
   },
